@@ -16,7 +16,15 @@ const connect = function() {
   conn.on("connect", () => {
     console.log("Successfully connected to server.");
     conn.write("Name: SBK");
-  })
+  });
+
+  /*
+  conn.on("connect", () => {
+    setInterval(() => {
+      conn.write("Move: down");
+    }, 200);
+  });
+  */
 
   return conn;
 };
