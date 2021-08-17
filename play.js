@@ -7,11 +7,11 @@ const { connect } = require("./client.js");
 
 const { setupInput } = require("./input.js")
 
-setupInput();
+// setupInput();
 
 // Establish connection w game server
 
 console.log("Connecting...");
-connect();
+//connect(); // returns a connection object
 
-
+setupInput(connect());
