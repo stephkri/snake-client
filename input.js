@@ -19,6 +19,14 @@ const handleUserInput = function(stdin, conn) {
       case "d":
         conn.write("Move: right");
         break;
+      case "g":
+        conn.write("Say: I'm a G.");
+        break;
+      case "h":
+        conn.write("Say: Wawawiwa!");
+        break;
+      case "j":
+        conn.write("Say: Schwing!")
     };
   });
 };
