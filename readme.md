@@ -8,8 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["Screenshot of the finished snake game"](https://github.com/stephkri/snake-client/blob/master/snekshot.jpg)
 
 
 ## Getting Started
