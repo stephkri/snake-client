@@ -1,6 +1,7 @@
 const net = require("net");
 const { IP, PORT } = require("./constants");
 
+// this object connects the client to the server
 const connect = function() {
   const conn = net.createConnection({
     host: IP,
@@ -18,14 +19,6 @@ const connect = function() {
     console.log("Successfully connected to server.");
     conn.write("Name: SBK");
   });
-
-  /*
-  conn.on("connect", () => {
-    setInterval(() => {
-      conn.write("Move: down");
-    }, 200);
-  });
-  */
 
   return conn;
 };
