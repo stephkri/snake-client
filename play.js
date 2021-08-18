@@ -1,11 +1,11 @@
 const { connect } = require("./client.js");
 
 /**
- * Setup User Interface 
+ * Setup User Interface
  * Specifically, so that we can handle user input via stdin
  */
 
-const { setupInput } = require("./input.js")
+const { setupInput } = require("./input.js");
 
 // setupInput();
 
